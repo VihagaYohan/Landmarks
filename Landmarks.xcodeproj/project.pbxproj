@@ -16,6 +16,7 @@
 		159872002C55D89900C26C25 /* landmarkData.json in Resources */ = {isa = PBXBuildFile; fileRef = 159871FF2C55D89900C26C25 /* landmarkData.json */; };
 		159872022C55D8E400C26C25 /* Landmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 159872012C55D8E400C26C25 /* Landmark.swift */; };
 		159872042C55DC3500C26C25 /* ModalData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 159872032C55DC3500C26C25 /* ModalData.swift */; };
+		159872092C55E0D000C26C25 /* LandmarkRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 159872082C55E0D000C26C25 /* LandmarkRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		159871FF2C55D89900C26C25 /* landmarkData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = landmarkData.json; sourceTree = "<group>"; };
 		159872012C55D8E400C26C25 /* Landmark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Landmark.swift; sourceTree = "<group>"; };
 		159872032C55DC3500C26C25 /* ModalData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalData.swift; sourceTree = "<group>"; };
+		159872082C55E0D000C26C25 /* LandmarkRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LandmarkRow.swift; path = Landmarks/LandmarkRow.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 		159872052C55DFC700C26C25 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				159872082C55E0D000C26C25 /* LandmarkRow.swift */,
 				159871EF2C55CFDB00C26C25 /* ContentView.swift */,
 				159871FB2C55D2D600C26C25 /* CircleImage.swift */,
 				159871FD2C55D40500C26C25 /* MapView.swift */,
@@ -182,6 +185,7 @@
 				159871EE2C55CFDB00C26C25 /* LandmarksApp.swift in Sources */,
 				159871FC2C55D2D600C26C25 /* CircleImage.swift in Sources */,
 				159872022C55D8E400C26C25 /* Landmark.swift in Sources */,
+				159872092C55E0D000C26C25 /* LandmarkRow.swift in Sources */,
 				159872042C55DC3500C26C25 /* ModalData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
